@@ -84,8 +84,6 @@ import Image from 'next/image';
 import { CodeBracketIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 
-const example: string = "example";
-
 // Define the props type for ProjectCard
 interface ProjectCardProps {
   imgUrl: string;
