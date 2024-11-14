@@ -43,9 +43,9 @@ const TAB_DATA =[
 const AboutSection =()=> {
 
 const [tab,setTab]=useState("skill")
-const [isPending,startTransition]=useTransition()
+const [isPanding,startTransition]=useTransition()
 
-const example: string = "example"; // Replace `any` with the appropriate type
+
 
 const handleTabChange = (id:string) =>{
     startTransition (()=>{
