@@ -4,7 +4,7 @@
 // import React from 'react';
 // import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 // import { IoLogoInstagram } from "react-icons/io5";
-// import Link from "next/link"
+// import Link from "next/link";
 // import Resume from './Resume';
 
 // const EmailSection = () => {
@@ -33,14 +33,15 @@
 //     <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4">
 //       <div>
 //         <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+        
 
+//         <p className="text-[#ADB7BE] md-4 max-w-md">
+//           I&apos;m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you.
+//         </p>
 
-// <p className="text-[#ADB7BE] md-4 max-w-md">
-//     I&apos;m currently looking for new opportunities 
-//   my inbox is always open. Whether you have a question or just want to say hi
-//   I&apos;ll try my best to get back to you.
-// </p>
-
+//         <p className="text-[#ADB7BE] md-4 max-w-md">
+//           If you're interested, please reach out here!
+//         </p>
 
 //         <div className="flex gap-4 items-center justify-center md:justify-start mt-4 md:mt-0">
 //           <ul className="flex gap-3">
@@ -102,23 +103,13 @@
 //             Send Message
 //           </button>
 //         </form>
-//       <Resume/>
+//         <Resume />
 //       </div>
 //     </section>
 //   );
 // };
 
 // export default EmailSection;
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -141,7 +132,7 @@ const EmailSection = () => {
   // Social Links Array Define Karen
   const socialLinks = [
     {
-      url: "https://www.facebook.com/profile.php?id=100081218384596", // Replace with your actual links
+      url: "https://www.facebook.com/profile.php?id=100081218384596",
       icon: <FaFacebookF size={40} className='text-white hover:text-blue-500' />
     },
     {
@@ -157,20 +148,18 @@ const EmailSection = () => {
       icon: <FaGithub size={40} className='text-white hover:text-blue-500'/>
     }
   ]
-  
 
   return (
     <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4">
       <div>
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
-        
+        <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
 
         <p className="text-[#ADB7BE] md-4 max-w-md">
           I&apos;m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you.
         </p>
 
         <p className="text-[#ADB7BE] md-4 max-w-md">
-          If you're interested, please reach out here!
+          If you&apos;re interested, please reach out here!
         </p>
 
         <div className="flex gap-4 items-center justify-center md:justify-start mt-4 md:mt-0">
@@ -223,7 +212,7 @@ const EmailSection = () => {
               name="message"
               id="message"
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Let's talk about..."
+              placeholder="Let&apos;s talk about..."
             />
           </div>
           <button
@@ -240,4 +229,3 @@ const EmailSection = () => {
 };
 
 export default EmailSection;
-
